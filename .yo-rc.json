@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "helloDocker",
+    "packageName": "com.lazulite.hellodocker",
+    "packageFolder": "com/lazulite/hellodocker",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "en",
+      "zh-cn"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NzMxMmUwMDRhZGE4NTlkNmU3ZTZkZTU2NzIwNGQ2NmU0MTkxYjNjOTdmNWYzNWNmOGVhN2NjZWM5MTZlZTlkMWI0ZmYwMGFiMDdlMTA2ZDU5MDdlMmM0Yzg4MmEzYzRjZWM2YWIxZTVkN2Y4YjBlOTMyNWI3MmJiODhiNGVmMmU=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "bit-star",
+  "repository-name": "helloDocker"
+}
