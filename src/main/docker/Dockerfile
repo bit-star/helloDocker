@@ -2,7 +2,6 @@ FROM adoptopenjdk:11-jre-hotspot
 
 ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \
     JHIPSTER_SLEEP=0
-    TZ=Asia/Shanghai
 # add directly the war
 ADD target/*.jar /app.jar
 
